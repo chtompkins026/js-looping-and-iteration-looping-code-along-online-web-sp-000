@@ -16,5 +16,5 @@ function maybeTrue() {
     while (maybeTrue()){ 
       tails += 1; 
     }
-    console.log(`You got ${tails + 1} in a row!`);
+    console.log(`You got ${tails + 1} tails in a row!`);
 }
