@@ -18,3 +18,5 @@ function maybeTrue() {
     }
     console.log(`You got ${tails + 1} tails in a row!`);
 }
+
+tailsNeverFails();
