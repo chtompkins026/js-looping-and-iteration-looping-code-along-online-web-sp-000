@@ -12,8 +12,11 @@ function maybeTrue() {
 }
  
  function tailsNeverFails() {  
+   let tails = 0; 
     while (maybeTrue()){ 
       console.log('And I ran... I ran so far away!');
     }
+    
+    tails += 1; 
     
 }
