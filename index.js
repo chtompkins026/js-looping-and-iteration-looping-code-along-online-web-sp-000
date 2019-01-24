@@ -7,10 +7,10 @@ function printBadges(array){
   return array; 
 }
 
-function maybeTrue() {
-    return Math.random() >= 0.5;
-}
+// function maybeTrue() {
+//     return Math.random() >= 0.5;
+// }
  
-while (maybeTrue()) {
-    console.log('And I ran... I ran so far away!');
-}
+// while (maybeTrue()) {
+//     console.log('And I ran... I ran so far away!');
+// }
