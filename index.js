@@ -15,8 +15,9 @@ function maybeTrue() {
    let tails = 0; 
     while (maybeTrue()){ 
       console.log('And I ran... I ran so far away!');
+       tails += 1; 
     }
     
-    tails += 1; 
+   
     
 }
